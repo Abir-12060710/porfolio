@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* header section */
+header{
+    background-color: black;
+    color: white;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+.pfl {
+    color: rgb(33, 212, 92);
+    font-size: 1.5rem;
+}
+.menu ul  {
+    display: flex;
+    align-content: center;
+    list-style: none;
+}
+.menu ul  li  a{
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+    font-size: 1.2rem;
+}
+.menu ul li a:hover{
+    color: orange;
+    font-size: larger;
+    font-weight: bold;
+
+}
+.menu ul li a:active{
+    color: red;
+}
+/* page 1 */
