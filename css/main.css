@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+body {
+    background-color: black;
+}
+
 /* header section */
 header {
     background-color: black;
@@ -54,7 +58,7 @@ header {
 }
 
 #propic {
-    width: 300px;
+    width: 250px;
     aspect-ratio: 27/37;
     margin: 40px;
 }
@@ -95,4 +99,52 @@ header {
     font-size: larger;
     font-weight: bolder;
     transition: all 0.3s ease;
+}
+
+/* page 2 */
+.page2 {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hd2 {
+    color: wheat;
+    font-size: 2.5rem;
+    margin: 20px;
+}
+
+.txt2 {
+    width: 80%;
+    margin: 20px auto;
+
+}
+
+.txt2 p {
+    color: white;
+    font-size: 1.2rem;
+    text-align: center;
+    border: 2px solid white;
+    border-radius: 10px;
+    padding: 20px;
+}
+.hd3{
+    color: wheat;
+    font-size: 2.5rem;
+    margin: 20px auto;
+    text-align: center;
+}
+.b1 ul{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.b1 ul li{
+    list-style: none;
+    padding: 10px;
+    border: 2px solid white;
+    border-radius: 10px;
 }
