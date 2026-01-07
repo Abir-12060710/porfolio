@@ -1,41 +1,98 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
 /* header section */
-header{
+header {
     background-color: black;
     color: white;
 }
-.navbar{
+
+.navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 20px;
 }
+
 .pfl {
     color: rgb(33, 212, 92);
     font-size: 1.5rem;
 }
-.menu ul  {
+
+.menu ul {
     display: flex;
     align-content: center;
     list-style: none;
 }
-.menu ul  li  a{
+
+.menu ul li a {
     text-decoration: none;
     color: white;
     padding: 20px;
     font-size: 1.2rem;
 }
-.menu ul li a:hover{
+
+.menu ul li a:hover {
     color: orange;
     font-size: larger;
     font-weight: bold;
 
 }
-.menu ul li a:active{
+
+.menu ul li a:active {
     color: red;
 }
+
 /* page 1 */
+.page1 {
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+}
+
+#propic {
+    width: 300px;
+    aspect-ratio: 27/37;
+    margin: 40px;
+}
+
+.details {
+    color: wheat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.details h1 {
+    font-size: 3.5rem;
+    margin: 10px;
+}
+
+.details h4 {
+    font-size: larger;
+    margin: 10px;
+}
+
+.details button {
+    background-color: orangered;
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin: 10px;
+
+}
+
+.details button a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.2rem;
+}
+
+.details button:hover {
+    font-size: larger;
+    font-weight: bolder;
+    transition: all 0.3s ease;
+}
