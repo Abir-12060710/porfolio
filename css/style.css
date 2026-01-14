@@ -5,25 +5,29 @@
 }
 
 body {
-    background-color: black;
+    background-color: #0B0B0B;
+    font-family: roboto;
+    color: #E5E7EB;
 }
 
 /* header section */
-header {
-    background-color: black;
-    color: white;
-}
 
 .navbar {
+    border: 2px solid red;
+    position: fixed;
+    top: 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px;
+    padding: 1rem;
+    max-height: 18vh;
+    width: 100vw;
 }
 
 .pfl {
-    color: rgb(33, 212, 92);
+    color: #22C55E;
     font-size: 1.5rem;
+    font-family: "Roboto Condensed";
 }
 
 .menu ul {
@@ -34,27 +38,24 @@ header {
 
 .menu ul li a {
     text-decoration: none;
-    color: white;
     padding: 20px;
+    color: #E5E7EB;
     font-size: 1.2rem;
 }
 
 .menu ul li a:hover {
-    color: orange;
+    color: #22C55E;
     font-size: larger;
     font-weight: bold;
 
 }
 
-.menu ul li a:active {
-    color: red;
-}
-
 /* page 1 */
 .page1 {
-    display: flex;
-    justify-content: space-around;
-    background-color: black;
+    height: 90vh;
+    width: 100vw;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
 }
 
 #propic {
@@ -64,7 +65,6 @@ header {
 }
 
 .details {
-    color: wheat;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -82,7 +82,7 @@ header {
 }
 
 .details button {
-    background-color: orangered;
+    background-color: #22C55E;
     padding: 10px 20px;
     border-radius: 10px;
     margin: 10px;
@@ -91,11 +91,12 @@ header {
 
 .details button a {
     text-decoration: none;
-    color: white;
+    color: #0B0B0B;
     font-size: 1.2rem;
 }
 
 .details button:hover {
+    color: #16A34A;
     font-size: larger;
     font-weight: bolder;
     transition: all 0.3s ease;
