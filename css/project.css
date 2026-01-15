@@ -1,56 +1,59 @@
-*{
-    padding: 0;
+:root{
+    --main_color: #7043db;
+    --hover_color: #7C3AED;
+    --text_clr: #E5E7EB;
+}
+* {
     margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
+
 body {
-    background-color: #0B0B0B;
-    font-family: roboto;
-    color: #E5E7EB;
-}
-/* header section */
-header {
     background-color: black;
-    color: white;
+    font-family: roboto;
+    color: var(--text_clr);
 }
+
+/* header section */
 
 .navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 1rem;
-    max-height: 15vh;
-    width: 100vw;
-    position: fixed;
-    top: 0;
+    height: 15vh;
+    width: 100%;
 }
 
-
-.pfl {
-    color: rgb(33, 212, 92);
-    font-size: 1.5rem;
+.pfl a {
+    color: var(--main_color);
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 700;
+    font-family: "Roboto Condensed";
 }
 
 .menu ul {
     display: flex;
+    flex-wrap: wrap;
     align-content: center;
     list-style: none;
 }
 
 .menu ul li a {
+    color: var(--text_clr);
+    font-size: 1.4rem;
+    font-weight: 300;
     text-decoration: none;
-    color: white;
-    padding: 20px;
-    font-size: 1.2rem;
+    margin: 3rem;
 }
 
 .menu ul li a:hover {
-    color: orange;
-    font-size: larger;
-    font-weight: bold;
+    color: var(--hover_color);
+    font-size: 1.5rem;
+    font-weight: 400;
 
-}
-
-.menu ul li a:active {
-    color: red;
 }
